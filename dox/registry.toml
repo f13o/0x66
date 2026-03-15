@@ -1,0 +1,21 @@
+trusted_hosts = ["github.com/f13o", "github.com/fintual"]
+
+[search.apis]
+local = "https://localhost/search/"
+
+
+[packages.f13o.es]
+description = "Español"
+path = "es"
+repo = "github.com/f13o/this-is-me"
+
+[packages.f13o.en]
+description = "English"
+path = "en"
+repo = "github.com/f13o/this-is-me"
+
+
+[packages.fintual.dox]
+description = "dox documentation"
+path = "docs"
+repo = "github.com/fintual/dox"
