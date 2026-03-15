@@ -8,14 +8,17 @@ local = "https://localhost/search/"
 description = "Español"
 path = "es"
 repo = "github.com/f13o/this-is-me"
+search = ["local"]
 
 [packages.f13o.en]
 description = "English"
 path = "en"
 repo = "github.com/f13o/this-is-me"
+search = ["local"]
 
 
 [packages.fintual.dox]
 description = "dox documentation"
 path = "docs"
 repo = "github.com/fintual/dox"
+search = ["local"]
